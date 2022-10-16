@@ -1,0 +1,22 @@
+{
+  "name": "mi_primer_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-v-v/firstAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin-v-v/firstAPI/issues"
+  },
+  "homepage": "https://github.com/Kevin-v-v/firstAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
