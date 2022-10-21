@@ -30,6 +30,15 @@ module.exports = {
         }).then((response)=>{
             res.json(response);
         });
+    },
+    destroy: (req,res)=>{
+        Task.destroy({
+            where: {
+                id: req.params.id
+            }
+        }).then((response)=>{
+            res.json(response);
+        });
     }
 
 };
